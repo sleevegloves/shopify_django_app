@@ -3,6 +3,10 @@
 import os
 import sys
 
+#SHOPIFY_API_KEY=fc2962ce1305cfdce9b236b95bf505e8
+#SHOPIFY_API_SECRET=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
+#SHOPIFY_API_KEY=80bfae12da3708eb70710aadd51c28e2
+#SHOPIFY_API_SECRET=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
 
 def main():
     os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'shopify_django_app.settings')

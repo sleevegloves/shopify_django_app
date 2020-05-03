@@ -58,7 +58,7 @@ def finalize(request):
             "access_token": session.request_token(request.GET)
         }
     except Exception:
-        messages.error(request, "Could not log in to Shopify store.")
+        messages.error(request, "Could not log in")
         return redirect(reverse(login))
     messages.info(request, "Logged in to shopify store.")
     request.session.pop('return_to', None)
